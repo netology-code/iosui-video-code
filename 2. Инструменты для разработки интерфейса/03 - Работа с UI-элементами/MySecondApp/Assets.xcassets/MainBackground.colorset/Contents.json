@@ -2,8 +2,8 @@
   "colors" : [
     {
       "color" : {
-        "platform" : "universal",
-        "reference" : "systemGrayColor"
+        "platform" : "ios",
+        "reference" : "systemGray4Color"
       },
       "idiom" : "universal"
     },

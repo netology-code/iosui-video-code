@@ -1,10 +1,10 @@
 import UIKit
 
-class MyFirstView: UIView {
+class FieldView: UIView {
     
     override func awakeFromNib() {
         super.awakeFromNib()
         
-        backgroundColor = .systemPink
+        backgroundColor = .systemPurple
     }
 }
