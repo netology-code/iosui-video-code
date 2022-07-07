@@ -56,8 +56,13 @@ class TableHeaderView: UIView {
     
     private func setupConstraints() {
         NSLayoutConstraint.activate([
-            titleLabel.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 20.0),
-            titleLabel.centerYAnchor.constraint(equalTo: centerYAnchor),
+            titleLabel.leadingAnchor.constraint(
+                equalTo: leadingAnchor,
+                constant: 20.0
+            ),
+            titleLabel.centerYAnchor.constraint(
+                equalTo: centerYAnchor
+            ),
         ])
     }
 }

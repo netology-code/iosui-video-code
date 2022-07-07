@@ -152,6 +152,3 @@ final class ProfileCell: UICollectionViewCell {
         professionLabel.text = profile.profession
     }
 }
-
-
-
