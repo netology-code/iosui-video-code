@@ -26,15 +26,6 @@ class TableSectionFooterHeaderView: UITableViewHeaderFooterView {
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-    
-    // MARK: - Layout
-    
-    override var intrinsicContentSize: CGSize {
-        CGSize(
-            width: UIView.noIntrinsicMetric,
-            height: 44.0
-        )
-    }
 
     // MARK: - Public
 
@@ -59,10 +50,14 @@ class TableSectionFooterHeaderView: UITableViewHeaderFooterView {
                 constant: 20.0
             ),
             titleLabel.trailingAnchor.constraint(
-                equalTo:contentView.layoutMarginsGuide.trailingAnchor
+                equalTo:contentView.trailingAnchor
             ),
-            titleLabel.heightAnchor.constraint(equalToConstant: 30.0),
-            titleLabel.centerYAnchor.constraint(equalTo: contentView.centerYAnchor),
+            titleLabel.heightAnchor.constraint(
+                equalToConstant: 30.0
+            ),
+            titleLabel.centerYAnchor.constraint(
+                equalTo: contentView.centerYAnchor
+            ),
         ])
     }
 }
