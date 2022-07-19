@@ -49,7 +49,7 @@ class ResponderViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        title = "Responder chain"
+        title = "Gesture Recognizers"
         view.backgroundColor = .systemBackground
         view.isUserInteractionEnabled = true
         

@@ -75,6 +75,7 @@ class KeyFrameViewController: UIViewController {
             delay: 1.0,
             options: .calculationModeCubic,
             animations: {
+                // 1
                 UIView.addKeyframe(
                     withRelativeStartTime: 0.0,
                     relativeDuration: 0.25
@@ -84,6 +85,8 @@ class KeyFrameViewController: UIViewController {
                         y: 1.5
                     )
                 }
+                
+                // 2
                 UIView.addKeyframe(
                     withRelativeStartTime: 0.25,
                     relativeDuration: 0.25
@@ -93,6 +96,8 @@ class KeyFrameViewController: UIViewController {
                         y: self.view.bounds.maxY - self.animatedView.frame.height
                     )
                 }
+                
+                // 3
                 UIView.addKeyframe(
                     withRelativeStartTime: 0.5,
                     relativeDuration: 0.25
@@ -102,6 +107,8 @@ class KeyFrameViewController: UIViewController {
                         y: centerOrigin.y
                     )
                 }
+                
+                // 4
                 UIView.addKeyframe(
                     withRelativeStartTime: 0.75,
                     relativeDuration: 0.25
