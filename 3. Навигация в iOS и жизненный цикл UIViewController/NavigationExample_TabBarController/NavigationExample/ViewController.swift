@@ -6,6 +6,7 @@ class ViewController: UIViewController {
         let button = UIButton()
         button.translatesAutoresizingMaskIntoConstraints = false
         button.setTitle("Перейти", for: .normal)
+        button.setTitleColor(.systemBlue, for: .normal)
         
         return button
     }()
@@ -35,8 +36,8 @@ class ViewController: UIViewController {
     @objc func buttonPressed(_ sender: UIButton) {
         let profileViewController = ProfileViewController()
         
-        profileViewController.modalTransitionStyle = .coverVertical
-        profileViewController.modalPresentationStyle = .fullScreen
+        profileViewController.modalTransitionStyle = .flipHorizontal // flipHorizontal
+        profileViewController.modalPresentationStyle = .pageSheet // pageSheet
         
         present(profileViewController, animated: true)
     }

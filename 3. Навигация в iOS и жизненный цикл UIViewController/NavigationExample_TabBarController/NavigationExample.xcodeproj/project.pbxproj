@@ -59,10 +59,10 @@
 				AF20B2582852437C008343FD /* AppDelegate.swift */,
 				AF20B25A2852437C008343FD /* SceneDelegate.swift */,
 				AF20B25C2852437C008343FD /* ViewController.swift */,
+				AF1F04A8285361B4000E9A90 /* ProfileViewController.swift */,
 				AF20B2612852437D008343FD /* Assets.xcassets */,
 				AF20B2632852437D008343FD /* LaunchScreen.storyboard */,
 				AF20B2662852437D008343FD /* Info.plist */,
-				AF1F04A8285361B4000E9A90 /* ProfileViewController.swift */,
 			);
 			path = NavigationExample;
 			sourceTree = "<group>";
